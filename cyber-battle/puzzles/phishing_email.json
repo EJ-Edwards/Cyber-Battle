@@ -1,0 +1,10 @@
+{
+  "title": "Phishing Email",
+  "description": "Identify the suspicious link in a phishing email.",
+  "difficulty": "easy",
+  "hints": [
+    "Look for misspelled domains.",
+    "Hover over the link to see the real URL."
+  ],
+  "solution": "The link points to a fake login page."
+}

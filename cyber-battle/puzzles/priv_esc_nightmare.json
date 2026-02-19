@@ -1,0 +1,10 @@
+{
+  "title": "Privilege Escalation",
+  "description": "A user can run a program as root without a password. Find the misconfiguration and exploit it.",
+  "difficulty": "nightmare",
+  "hints": [
+    "Check the sudoers file.",
+    "Look for NOPASSWD entries."
+  ],
+  "solution": "Exploit the NOPASSWD sudo rule to gain root access."
+}

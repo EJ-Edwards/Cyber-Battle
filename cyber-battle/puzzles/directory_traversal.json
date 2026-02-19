@@ -1,0 +1,10 @@
+{
+  "title": "Directory Traversal",
+  "description": "A file download endpoint is vulnerable. Retrieve the /etc/passwd file from the server.",
+  "difficulty": "hard",
+  "hints": [
+    "Try using ../ in the file path.",
+    "What file would you target on a Linux system?"
+  ],
+  "solution": "../../../../etc/passwd"
+}

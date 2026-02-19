@@ -1,0 +1,10 @@
+{
+  "title": "XSS Attack",
+  "description": "A website displays user comments without sanitization. Find a way to execute JavaScript in another user's browser.",
+  "difficulty": "easy",
+  "hints": [
+    "Try submitting a <script> tag in the comment.",
+    "What happens if you use alert(1)?"
+  ],
+  "solution": "<script>alert(1)</script>"
+}
