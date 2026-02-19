@@ -10,7 +10,7 @@ import (
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "10000"
 	}
 	fmt.Printf("Starting API server on :%s...\n", port)
 	apiInstance := api.NewAPI()
