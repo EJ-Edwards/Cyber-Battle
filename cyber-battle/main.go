@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func main() {
+func newmain() {
 	updater.NotifyIfUpdate()
 	docs.Rules()
 	if !docs.AgreeToRules() {
